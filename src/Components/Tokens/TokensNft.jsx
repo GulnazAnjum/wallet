@@ -4,14 +4,18 @@ import { Link } from "react-router-dom";
 
 const TokensNft = () => {
   return (
-    <div>
-      <Link className="Content-token" target="_self" to="/token">
+    <div className="Link-Container">
+    <div className="First-Link-Container">
+         <Link className="Token-Link" to="/token">
         {" "}
-        Token{" "}
+        Tokens{" "}
       </Link>
-      <Link className="Content-nfts" target="-self" to="/NFTS">
-        Nfts
-      </Link>
+      </div>
+      
+      <div className="Second-Link-Container">
+      <Link className="Nfts-Link" to="/NFts">Nfts</Link>
+      </div>
+      
     </div>
   );
 };

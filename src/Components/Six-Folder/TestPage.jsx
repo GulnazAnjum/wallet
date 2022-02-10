@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import {Routing} from "../Tokens/Routing"
 
 import "./MultiCoin.css";
 
@@ -27,7 +28,9 @@ const TestPage = () => {
               <i id="Content-icon-buy" className="material-icons">
                 file_upload
               </i>
-              <b id="Content-icon-buy">Send</b>
+              <Link to="/">
+                <b id="Content-icon-buy">Send</b>
+              </Link>
             </Link>
 
             <Link target="_blank" to="/receive" className="Receive-Icon">
@@ -50,6 +53,8 @@ const TestPage = () => {
           </div>
         </div>
       </div>
+      {/* <Routing/> */}
+
     </div>
   );
 };

@@ -24,7 +24,7 @@ const TestPage = () => {
           <h2 className="Icon-Header">Multi-Coin Wallet 1</h2>
 
           <div className="Main-Icons">
-            <Link target="_blank" to="/send" className="Send-Icon">
+            <Link target="_self" to="/send" className="Send-Icon">
               <i id="Content-icon-buy" className="material-icons">
                 file_upload
               </i>
@@ -33,19 +33,19 @@ const TestPage = () => {
               </Link>
             </Link>
 
-            <Link target="_blank" to="/receive" className="Receive-Icon">
+            <Link target="_self" to="/receive" className="Receive-Icon">
               <i id="Content-icon-buy" className="material-icons">
                 file_download
               </i>
               <b id="Content-icon-buy">Receive</b>
             </Link>
 
-            <Link target="_blank" to="/buy" className="Buy-Icon">
+            <Link target="_self" to="/buy" className="Buy-Icon">
               <i id="Content-icon-buy" class="fas fa-tag"></i>
               <b id="Content-icon-buy">Buy</b>
             </Link>
 
-            <Link target="_blank" to="/swap" className="Swap-Icon">
+            <Link target="_self" to="/swap" className="Swap-Icon">
               <i id="Content-icon-buy" class="fas fa-exchange-alt"></i>
               <br />
               <b id="Content-icon-buy">Swap</b>

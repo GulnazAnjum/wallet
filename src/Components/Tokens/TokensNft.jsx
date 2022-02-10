@@ -6,14 +6,14 @@ const TokensNft = () => {
   return (
     <div className="Link-Container">
     <div className="First-Link-Container">
-         <Link className="Token-Link" to="/token">
+         <Link target="_self" className="Token-Link" to="/token">
         {" "}
         Tokens{" "}
       </Link>
       </div>
       
       <div className="Second-Link-Container">
-      <Link className="Nfts-Link" to="/NFts">Nfts</Link>
+      <Link target="_self" className="Nfts-Link" to="/NFts">Nfts</Link>
       </div>
       
     </div>

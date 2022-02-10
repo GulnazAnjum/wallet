@@ -18,12 +18,12 @@ const TestHome = () => {
       
         <Routes>
        
-          <Route  path="/send" element={<NewSend />} />
-          <Route path="/buy" element={<Buy />} />
-          <Route path="/exchange" element={<Exchange />} />
-          <Route path="/Receive" element={<Recive />} />
-          <Route path="/swap" element={<Swap />} />
-          <Route path="/" element={<TestPage />} />
+          <Route exact path="/send" element={<NewSend />} />
+          <Route exact  path="/buy" element={<Buy />} />
+          <Route exact path="/exchange" element={<Exchange />} />
+          <Route exact  path="/Receive" element={<Recive />} />
+          <Route exact  path="/swap" element={<Swap />} />
+          <Route exact path="/" element={<TestPage />} />
 
         </Routes>
       </BrowserRouter>

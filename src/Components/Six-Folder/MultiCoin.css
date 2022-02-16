@@ -140,14 +140,15 @@
     display: block;
     text-decoration: none;
     justify-content: center;
-    margin-top: 14px;
+    margin-top: 16px;
+    margin-left: 10px;
 }
 
 .Buy-Icon>i {
     font-size: 22px;
     position: relative;
     left: 8px;
-    bottom: 10px;
+    /* bottom: 10px; */
 }
 
 .Buy-Icon b {

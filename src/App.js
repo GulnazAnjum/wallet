@@ -17,7 +17,7 @@ function App() {
         <TokensNft />
         <Routes>
         
-          <Route exact  path="/Token" element={<Token/>} />
+          <Route  path="/Token" element={<Token/>} />
           <Route exact path="/NFTS" element={<NFts />} />
         </Routes>
       </BrowserRouter>
